@@ -34,7 +34,7 @@ public class MortgageCalculator {
         
         int creditScore = 0;
       while (true){
-        System.out.print("Enter your credit score(0-500)");
+        System.out.print("Enter your credit score(0-500) :");
         if(sc.hasNextInt()){
             creditScore=sc.nextInt();
             if(creditScore>0  && creditScore<=500){
